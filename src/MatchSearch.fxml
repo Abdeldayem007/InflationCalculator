@@ -12,7 +12,7 @@
         <Button text="Search" fx:id="searchButton" GridPane.columnIndex="2" GridPane.rowIndex="0" />
     </GridPane>
     <HBox alignment="CENTER" spacing="10">
-        <Label text="Price:" />
+        <Label text="Price:$" />
         <Label fx:id="priceValueLabel" />
     </HBox>
     <ListView fx:id="resultsList" prefHeight="200.0" />
